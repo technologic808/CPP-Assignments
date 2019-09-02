@@ -1,6 +1,6 @@
-#C++ Assignments
+# C++ Assignments
 
-1. Create Student class with data members
+## 1. Create Student class with data members
 RollNo
 Name
 Course
@@ -14,7 +14,7 @@ and implement following
 students in array.
 • Write Function to find student by Roll No
 
-2. Create Time class with data members
+## 2. Create Time class with data members
 hours
 minutes
 seconds
@@ -26,7 +26,7 @@ and implement following
 • Function to compare two time objects
 • Function to find out difference between two time objects
 
-3. Create Date class with data members
+## 3. Create Date class with data members
 dd
 mm
 yyyy
@@ -39,7 +39,7 @@ and implement following
 • Separate header and implementation files
 • Overlaod ==, !=, +, - operator
 
-4. Create Your own String class (Use class name as MyString) with data members
+## 4. Create Your own String class (Use class name as MyString) with data members
 char * p;
 int size;
 Allocate memory dynamically for pointer and get size from user.
@@ -51,7 +51,7 @@ Implement followings
 • Display function.
 • Separate header and implementation files
 
-5. Create Player class with data members
+## 5. Create Player class with data members
 name
 age
 country
@@ -66,7 +66,7 @@ one name and age)
 • In main function create array of player objects and pass it to Sort function and
 print sorted player list
 
-6. Create Address class with data members
+## 6. Create Address class with data members
 HouseNo
 Colony
 Area
@@ -81,7 +81,7 @@ e. Separate header and implementation files
 f. Write function to find whether two addresses are same or different.
 g. Overlaod == operator
 
-7. Create Payslip class with data members
+## 7. Create Payslip class with data members
 EmpNo
 EmpName
 DA
@@ -95,7 +95,7 @@ d. Display function for data display
 e. Function to calculate salary from DA, HRA and Basic Salary
 f. Separate header and implementation files
 
-8. Create MobilePhone class with data members
+## 8. Create MobilePhone class with data members
 ModelNo
 Price
 Manufacturer
