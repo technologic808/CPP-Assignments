@@ -28,9 +28,23 @@ void MobilePhone::display(){
 	cout << "\nQuantity: " << quantity << endl;
 }
 
+// Function to get quantity
+string MobilePhone::getQuantity(){
+	return quantity;
+}
+
+// Function to get model number
+string MobilePhone::getModel(){
+	return modelNo;
+}
+
 // Function to search model availability 
-MobilePhone MobilePhone::searchModel(string model){
-	
+string MobilePhone::searchModel(string model, vector<MobilePhone> v){
+	int size = v.size();
+	for (int i = 0; i < size; i++){
+		if(v[i].modelNo == model) return v[i].quantity;
+	}
+	return "";
 }
 
 

@@ -4,12 +4,15 @@
 #include<iostream>
 #include<string>
 #include<vector>
+#include<exception>
+#include<stdexcept>
 
 using std::cin;
 using std::cout;
 using std::endl;
 using std::string;
 using std::vector;
+using std::runtime_error;
 
 class MobilePhone{
 	private:
@@ -30,8 +33,14 @@ class MobilePhone{
 		// Function to display data 
 		void display();
 
+		// Function to get model number
+		string getModel();
+
+		// Function to get quantity
+		string getQuantity();
+
 		// Function to search model availability 
-		MobilePhone searchModel(string model);
+		static string searchModel(string , vector<MobilePhone>);
 };
 
 #endif
