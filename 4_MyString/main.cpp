@@ -23,6 +23,7 @@ int main(){
 	cout <<"\nSize: ";
 	cin >> size; 
 	MyString test(size);
+
 	char* p = test.getStringPtr();
 	cout << "\n\nString: ";
 	for(int i = 0; i < size; i ++){
@@ -33,8 +34,13 @@ int main(){
 	test.display();
 	cout << endl;
 
+	cout << "\nTest copy constructor\n";
+	MyString copy = test;
+	copy.display();
+	cout << endl;
 	
-
+	cout << "\nTest\n";
+	
 
 
 

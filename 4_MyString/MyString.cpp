@@ -42,9 +42,19 @@ char* MyString::getStringPtr(){
 }
 
 // Function to accept string (overload asssignment operator)
-//void MyString::operator =(){
-	
-//} 
+MyString MyString::operator =(char* s){
+
+	int *i;
+	while(s++){
+		i++;
+	}
+	int size = *i;
+	MyString s1(size);
+	for(int i = 0; i < size; i++){
+		s1.p[i] = s[i] ;
+	}	
+	return s1;
+} 
 
 // Function to display the string
 void  MyString::display(){

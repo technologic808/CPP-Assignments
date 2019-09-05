@@ -33,6 +33,9 @@ class MyString{
 		// Function to get string ptr
 		char* getStringPtr();
 
+		// Function to overload the assignment operator
+		MyString operator=(char*);
+		
 		// Function to display the string
 		void display();
 
